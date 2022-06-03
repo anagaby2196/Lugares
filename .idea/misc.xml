@@ -7,7 +7,11 @@
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/drawable/ic_login.xml" value="0.1195" />
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/drawable/ic_logoff.xml" value="0.1" />
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/activity_principal.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/app_bar_principal.xml" value="0.1712962962962963" />
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/content_principal.xml" value="0.25" />
+        <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/fragment_add_lugar.xml" value="0.25" />
+        <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/layout/fragment_lugar.xml" value="0.24615384615384617" />
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/menu/activity_main_drawer.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/aniga/Documents/GitHub/Lugares/app/src/main/res/menu/principal.xml" value="0.19114583333333332" />
       </map>

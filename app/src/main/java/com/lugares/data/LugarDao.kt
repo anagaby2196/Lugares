@@ -14,7 +14,7 @@ interface LugarDao {
     suspend fun updateLugar(lugar: Lugar)
 
     @Delete
-    suspend fun deletLugar(lugar: Lugar)
+    suspend fun deleteLugar(lugar: Lugar)
 
     @Query ("SELECT * FROM LUGAR")
     fun getAllData(): LiveData<List<Lugar>>
