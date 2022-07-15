@@ -14,8 +14,8 @@ import com.lugares.model.Lugar
 //@Dao
 class LugarDao {
     private val coleccion1 = "lugaresApp"
-//    private val usuario = Firebase.auth.currentUser?.email.toString()
-    private val usuario = "compartido"
+    private val usuario = Firebase.auth.currentUser?.email.toString()
+//    private val usuario = "compartido"
     private val coleccion2 =  "misLugares"
 
     //Obtener la instancia de la base de datos en Firestore
