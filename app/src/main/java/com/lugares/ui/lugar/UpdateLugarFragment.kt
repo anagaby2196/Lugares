@@ -17,6 +17,8 @@ import com.lugares.databinding.FragmentLugarBinding
 import com.lugares.model.Lugar
 import com.lugares.viewmodel.LugarViewModel
 import android.Manifest
+import android.media.MediaPlayer
+import com.bumptech.glide.Glide
 
 class UpdateLugarFragment : Fragment() {
 
@@ -26,6 +28,9 @@ class UpdateLugarFragment : Fragment() {
     private lateinit var lugarViewModel: LugarViewModel
     private var _binding: FragmentUpdateLugarBinding? = null
     private val binding get() = _binding!!
+
+    //Para escuchar el audio grabado
+    private lateinit var mediaPlayer: MediaPlayer
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -49,9 +54,25 @@ class UpdateLugarFragment : Fragment() {
 
         binding.btEmail.setOnClickListener { (escribirCorreo())}
         binding.btPhone.setOnClickListener { (llamarLugar())}
-//        binding.btWhatsapp.setOnClickListener { (enviarWhatsApp())}
         binding.btWeb.setOnClickListener { (verWeb())}
+
+        if (args.lugar.rutaAudio?.isNotEmpty()==true){
+            mediaPlayer = MediaPlayer()
+            mediaPlayer.setDataSource(args.lugar.rutaAudio)
+            mediaPlayer.prepare()
+            binding.btPlay.isEnabled=true
+            binding.btPlay.setOnClickListener{ mediaPlayer.start() }
+        } else {
+            binding.btPlay.isEnabled=false
+        }
+// si hay ruta de imagen...la dibuja
+        if (args.lugar.rutaImagen?.isNotEmpty()==true){
+            Glide.with(requireContext())
+                .load(args.lugar.rutaImagen).fitCenter().into(binding.imagen)
+        }
+
 //        binding.btLocation.setOnClickListener { (verMapa())}
+//        binding.btWhatsapp.setOnClickListener { (enviarWhatsApp())}
 
         //Se indica que en esta pantalla, se agrega una opcion de menu
         setHasOptionsMenu(true)

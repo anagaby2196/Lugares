@@ -1,10 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lugares</string>
-    <string name="default_web_client_id" translatable="false">123015378001-ddg77t92d4ror04nc3gqcgkno8ftqf0h.apps.googleusercontent.com</string>
-    <string name="tv_correo">Correo</string>
-    <string name="tv_clave">Contraseña</string>
-    <string name="msg_fallo_registro">Error registrando usuario</string>
-    <string name="msg_fallo_login">Error autenticando usuario</string>
+    <string name="tv_correo">Email</string>
+    <string name="tv_clave">Password</string>
+    <string name="msg_fallo_registro">User login error</string>
+    <string name="msg_fallo_login">User autentication error</string>
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -18,30 +17,30 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="msg_nombre">Nombre del Lugar</string>
-    <string name="msg_correo">Correo (abc@abc)</string>
-    <string name="msg_telefono">Teléfono (9999–99999)</string>
-    <string name="msg_web">Sitio Web</string>
-    <string name="bt_agregar">Agregar Lugar</string>
-    <string name="bt_actualizar">Actualizar Lugar</string>
-    <string name="lugarAdded">Lugar agregado</string>
-    <string name="noData">Faltan datos</string>
-    <string name="delete">Eliminar Lugar</string>
-    <string name="seguroBorrar">¿Está seguro de eliminar </string>
-    <string name="si">Si</string>
+    <string name="msg_nombre">Name</string>
+    <string name="msg_correo">Email (abc@abc)</string>
+    <string name="msg_telefono">Phone (9999–99999)</string>
+    <string name="msg_web">Web SIte</string>
+    <string name="bt_agregar">Add</string>
+    <string name="bt_actualizar">Update</string>
+    <string name="lugarAdded">Added</string>
+    <string name="noData">Data Empty</string>
+    <string name="delete">Delete</string>
+    <string name="seguroBorrar">Are you sure </string>
+    <string name="si">Yes</string>
     <string name="no">No</string>
 
-    <string name="msg_enviar_correo">Enviar correo electrónico</string>
-    <string name="msg_phone_call">Realizar llamada telefónica</string>
-    <string name="msg_whatsapp_send">Enviar mensaje WhatsApp</string>
-    <string name="msg_web_view">Abrir sitio Web</string>
-    <string name="msg_map_view">Ver lugar en mapa</string>
-    <string name="tv_latitud_lb">Latitud</string>
-    <string name="tv_longitud_lb">Longitud</string>
-    <string name="tv_altura_lb">Altura</string>
-    <string name="msg_saludos">Saludos amigos</string>
+    <string name="msg_enviar_correo">Send email</string>
+    <string name="msg_phone_call">Phone call</string>
+    <string name="msg_whatsapp_send">WhatsApp message</string>
+    <string name="msg_web_view">Open web site</string>
+    <string name="msg_map_view">Map</string>
+    <string name="tv_latitud_lb">Latitude</string>
+    <string name="tv_longitud_lb">Longitude</string>
+    <string name="tv_altura_lb">Altude</string>
+    <string name="msg_saludos">Dear friend</string>
     <string name="msg_mensaje_correo">Le escribo este correo para</string>
-    <string name="msg_datos">Faltan datos</string>
+    <string name="msg_datos">Data Empty</string>
     <string name="error">Error</string>
 
     <string name="msgEscucharAudio">Escuchar nota de audio</string>
@@ -59,5 +58,4 @@
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Por definir</string>
-
 </resources>

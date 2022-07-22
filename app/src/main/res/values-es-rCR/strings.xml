@@ -1,6 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lugares</string>
-    <string name="default_web_client_id" translatable="false">123015378001-ddg77t92d4ror04nc3gqcgkno8ftqf0h.apps.googleusercontent.com</string>
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
     <string name="msg_fallo_registro">Error registrando usuario</string>
@@ -59,5 +58,4 @@
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Por definir</string>
-
 </resources>
