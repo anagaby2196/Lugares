@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">Lugares</string>
-    <string name="default_web_client_id" translatable="false">123015378001-ddg77t92d4ror04nc3gqcgkno8ftqf0h.apps.googleusercontent.com</string>
+    <string name="default_web_client_idr" translatable="false">123015378001-ddg77t92d4ror04nc3gqcgkno8ftqf0h.apps.googleusercontent.com</string>
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
     <string name="msg_fallo_registro">Error registrando usuario</string>
@@ -14,7 +14,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_lugar">Lugar</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_gallery">Mapa</string>
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
