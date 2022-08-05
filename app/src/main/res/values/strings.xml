@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Lugares</string>
     <string name="default_web_client_idr" translatable="false">123015378001-ddg77t92d4ror04nc3gqcgkno8ftqf0h.apps.googleusercontent.com</string>
+<!--    <string name="google_maps_key" translatable="false">AIzaSyD50stWAq12TDOi0b4QfT3AmfsZ6rGmw1Y</string>-->
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
     <string name="msg_fallo_registro">Error registrando usuario</string>
